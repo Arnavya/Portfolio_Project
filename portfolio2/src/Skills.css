@@ -1,0 +1,35 @@
+.skills-section {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .skills-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .skills-section p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+  }
+  
+  .skills-category {
+    margin-bottom: 40px;
+  }
+  
+  .skills-category h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .skills-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .skills-icons img {
+    width: 50px;
+    height: 50px;
+  }
+  

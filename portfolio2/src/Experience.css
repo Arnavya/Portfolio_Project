@@ -1,0 +1,33 @@
+.experience-section {
+    text-align: center;
+    padding: 50px;
+}
+
+.experience-section h2 {
+    font-size: 3em;
+    margin-bottom: 40px;
+    color: #FFA500; /* Orange color for that adventurous feel */
+}
+
+.experience-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.freshie {
+    font-size: 5em;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif; /* You can change the font family to something more adventurous if you want */
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient for a vibrant look */
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.funny-text {
+    font-size: 1.5em;
+    color: #32CD32; /* Lime green for a playful vibe */
+    margin-top: 10px;
+}
