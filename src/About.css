@@ -1,7 +1,7 @@
 .about-section {
   padding: 20px;
   text-align: left;
-  min-height: 100vh;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,5 +27,11 @@
 }
 #para_img{
   display: flex;
-  justify-content: center;
+  justify-content:center;
+}
+h2 {
+  font-size: 3em;
+}
+.size{
+  font-size: 1.5em;
 }

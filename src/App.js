@@ -7,7 +7,7 @@ import Skills from './Skills';
 import Education from './Education';
 import Experience from './Experience';
 import Projects from './Projects';
-
+import { FaInstagram, FaGithub, FaLinkedin, FaXTwitter} from 'react-icons/fa6';
 function App() {
   return (
     <div className="App">
@@ -20,16 +20,23 @@ function App() {
         <h1>Arnavya Chettri</h1>
         <Typing 
           text={[
-            "Hi There",
-            "How Are You",
-            "I Am Fine",
+            "I am a Developer",
+            "I like to code",
+            "I like to build",
           ]}
           typingSpeed={100}
           deletingSpeed={50}
           duration={1000}
-          className="typing-text"
+          
         />
-        <div className="social-icons"></div>
+        <div className="social-icons"><a id = "size" href="https://www.linkedin.com/in/arnavya-chhetri-51380b2a3/" className="icon-link" style={{ color: 'red' }}>
+            <FaLinkedin className="icon" />
+        </a><a id = "size" href="https://github.com/Arnavya" className="icon-link" style={{ color: 'red' }}>
+            <FaGithub className="icon" />
+        </a>
+        <a id = "size" href="https://x.com/" className="icon-link" style={{ color: 'red' }}>
+            <FaXTwitter className="icon" />
+        </a></div>
       </div>
       <div id="about" className="section">
         <About />

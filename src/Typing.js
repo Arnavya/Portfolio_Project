@@ -35,7 +35,7 @@ function Typing({
     return () => clearTimeout(timeout); 
   },[displayedText, isDeleting, index, text, typingSpeed, deletingSpeed, duration] )
   return (
-    <div className="typing-effect">
+    <div className="typing-effect" style={{ fontSize: "24px", fontWeight: "bold" }}>
       {displayedText}
       <span className="caret">|</span>
     </div>

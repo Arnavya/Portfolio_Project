@@ -65,8 +65,18 @@ html {
 }
 h1{
   font-size: 5rem;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .typing-text {
-  font-size: 100; /* Adjust the font size as desired */
+  font-size: 100rem; /* Adjust the font size as desired */
+}
+.social-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+#size{
+  font-size: 39px;
+  padding: 24px;
 }
